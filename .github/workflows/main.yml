@@ -13,7 +13,7 @@ jobs:
         with:
           node-version: '17.6.0'
           registry-url: 'https://npm.pkg.github.com/'
-          scope: '@haianh-team'
+          scope: '@haianh'
       - run: npm i
       - run: npm publish
         env:
